@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ______________NAVBAR_________________ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  z-index: 9999;
+  height: 100px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.nav-left-links {
+  margin-left: 40px;
+}
+.nav-left-links a {
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-right {
+  padding-right: 50px;
+}
+
+.nav-btn-left {
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.nav-btn-left:hover {
+  background: #ffffffa2;
+  color: #000;
+}
+
+.nav-btn-right {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+  color: transparent;
+  background: #ffffffa2;
+  color: #000;
+  cursor: pointer;
+}
+.nav-btn-right:hover {
+  background: transparent;
+  color: #fff;
+}
+
+/* ______________________HERO_______________________ */
+
+.hero {
+  background-image: linear-gradient(
+      to right,
+      hsla(13, 100%, 72%, 0.856),
+      hsla(353, 100%, 62%, 0.842)
+    ),
+    url("./images/bg-pattern-intro-desktop.svg");
+  height: 70vh;
+  background-position: 30% 50%;
+  background-size: 180%;
+  position: relative;
+  border-radius: 0 0 0 100px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.hero-desc {
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+.hero-btn-left {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #000;
+  border: 0;
+  margin-right: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-btn-left:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.hero-btn-right {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-btn-right:hover {
+  background: #fff;
+  border: 1px solid #ffff;
+  color: #000;
+}
+
+.main {
+  height: 100%;
+}
+
+.main-header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-img {
+  margin-left: 20%;
+  width: 100%;
+}
+
+.main-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin-left: 100px;
+}
+
+.main-content-up {
+  margin-top: 30px;
+}
+.main-content-up p {
+  margin-top: 30px;
+  color: #a1a1a1;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 14px;
+  width: 80%;
+}
+.main-content-up h1 {
+  font-weight: 400;
+}
+
+/* ___________________MAIN SECTION 1_____________ */
+.main-section {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  margin-top: 90px;
+  background: hsl(237, 17%, 21%);
+  padding: 0 80px;
+  border-radius: 0 100px 0 100px;
+  background-image: url("./images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: -60% 80%;
+  background-size: 70%;
+  color: #fff;
+}
+
+.main-section-content {
+  margin-left: 50px;
+}
+.main-section-content p {
+  margin: 20px 0;
+  color: #a1a1a1;
+  line-height: 25px;
+  width: 85%;
+  font-size: 14px;
+}
+.main-section-content h1 {
+  font-weight: 400;
+}
+
+/* ___________________MAIN SECTION 2___________________ */
+.main-img2 {
+  margin-left: -30%;
+  width: 120%;
+  margin-top: 80px;
+}
+
+/* _____________________FOOTER________________________ */
+
+.footer {
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  background: #2c2d3f;
+  color: #fff;
+  border-radius: 0 100px 0 0;
+  align-items: center;
+}
+
+.footer-ul {
+  list-style: none;
+}
+.footer-ul li {
+  margin-top: 10px;
+  color: #a1a1a1;
+}
+
+.footer-content h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer-logo {
+  height: 40px;
+  margin-bottom: 20vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
